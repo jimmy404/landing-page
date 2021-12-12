@@ -147,3 +147,30 @@ main h2 {
   font-size: 36px;
   font-weight: 100;
 }
+
+/* SIGN UP SECTION*/
+.main-sign-up {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5em 13em;
+}
+
+.container {
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+  width: 100%;
+}
+
+.container button {
+  border: 2px solid #FFF;
+}
+
+strong {
+  color: #FFF;
+  font-size: 24px;
+}
