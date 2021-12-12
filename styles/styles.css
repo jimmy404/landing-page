@@ -41,3 +41,48 @@ a:link {
   gap: 1.5em;
   list-style-type: none;
 }
+
+/* WELCOME SECTION*/
+.mainTitle {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.mainContent {
+  align-items: center;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  padding: 7em 0;
+}
+
+.mainContent-right {
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.mainContent-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 7px 1em;
+  width: 120px;
+}
+
+.mainContent button {
+  border: none;
+}
+
+/* WELCOME SECTION > MAIN IMAGE */
+.image {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 215px;
+}
