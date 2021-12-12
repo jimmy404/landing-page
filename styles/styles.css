@@ -125,3 +125,25 @@ main h2 {
   height: 160px;
   width: 160px;
 }
+
+/* QUOTE SECTION*/
+.main-quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7em 13em;
+}
+
+.main-quote p {
+  align-self: flex-end;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.main-quote em {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+}
