@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 /* GENERALS */
-
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +9,35 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-/* HEADER SECTION*/
 
+/* HEADER SECTION*/
 header {
   background-color: #1f2937;
   padding: 1em 13em;
+}
+
+/* NAVIGATION SECTION*/
+.secondary,
+a:link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#navigation-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.navigation {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1.5em;
+  list-style-type: none;
 }
